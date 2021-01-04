@@ -32,8 +32,8 @@
         },
         "condition-operator":{
             "patterns": [{
-                "name": "keyword.operator",
-                "match": "(!|<|>|=|OR|AND)"
+                "name": "punctuation",
+                "match": "(!|<|>|=|OR|AND|\\(|\\))"
             }]
         },
         "condition-keyword":{
@@ -45,7 +45,7 @@
                 "match": "(CL[1-7]|WP1[0-3]|WP[1-9]|WEAPON|EQ[1-7]|ARMOR)"
             }, {
                 "name": "keyword",
-                "match": "(CLVL|ILVL|SOCK|ID|GOLD|GEMLEVEL|GEMTYPE|RUNE|DIFF)"
+                "match": "(CLVL|ILVL|SOCK|ID|GOLD|GEMLEVEL|GEMTYPE|RUNE|DIFFICULTY)"
             }, {
                 "name": "keyword",
                 "match": "(ED|RES|DEF|LIFE|IAS|FCR)"
@@ -56,7 +56,7 @@
         },
         "condition-id":{
             "patterns": [{
-                "name": "keyword",
+                "name": "constant.other.symbol",
                 "match": "\\b(?=[^\\s]*[a-z][^\\s]*)[a-z\\d]{3,4}\\b"
             }]
         },

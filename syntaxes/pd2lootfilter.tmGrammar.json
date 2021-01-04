@@ -34,7 +34,7 @@
         "condition-operator":{
             "patterns": [{
                 "name": "punctuation",
-                "match": "(!|<|>|=|OR|AND)"
+                "match": "(!|<|>|=|OR|AND|\\(|\\))"
             }]
         },
         "condition-keyword":{
@@ -87,7 +87,7 @@
         },
         "action-description":{
             "patterns": [{
-                "name": "meta.brace.curly",
+                "name": "constant.other.symbol",
                 "match": "\\{|\\}"
             }]
         },
