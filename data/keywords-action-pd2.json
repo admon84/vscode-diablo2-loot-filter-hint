@@ -38,20 +38,20 @@
 
 
         {
+            "id": "BORDER",
+            "name": "Notification & map icon (large)"
+        },
+        {
             "id": "MAP",
-            "name": "Map icon setting"
+            "name": "Notification & map icon (medium)"
         },
         {
             "id": "DOT",
-            "name": "Map icon setting"
+            "name": "Notification & map icon (small)"
         },
         {
             "id": "PX",
-            "name": "Map icon setting"
-        },
-        {
-            "id": "BORDER",
-            "name": "Map icon setting"
+            "name": "Notification & map icon (tiny)"
         }
     ]
 }
